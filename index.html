@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Белый Купол — Военно-патриотический клуб</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Шапка -->
+<header class="header">
+    <div class="container header__container">
+        <!-- Левая часть: логотип + текст -->
+        <div class="header__left">
+            <img src="2.jpg" alt="Белый Купол" class="header__logo-img">
+        </div>
+        
+        <!-- Правая часть: телефон и кнопка -->
+        <div class="header__contacts">
+            <a href="tel:+7(777)777-77-77" class="header__phone">
+                <i class="fas fa-phone-alt"></i> +7 (777) 777-77-77
+            </a>
+            <a href="#form" class="btn btn--header">Записаться</a>
+        </div>
+        
+        <!-- Бургер-меню для мобильных -->
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+        <!-- Мобильное меню (скрыто по умолчанию) -->
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="#about">О клубе</a>
+            <a href="#program">Программа</a>
+            <a href="#instructors">Инструкторы</a>
+            <a href="#form">Запись</a>
+        </nav>
+    </header>
+
+<!-- Главный экран / Hero -->
+<section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+        <h1 class="hero__title">
+            Военно-патриотический клуб
+        </h1>
+            <h2 class="hero_club-name">«Белый Купол»</h2>    
+        <p class="hero__subtitle">
+            Клуб занимается патриоическим воспитанием молодёжи, физической и тактической подготовкой, изучением военной истории и традиций Российской Армии. 
+            Мы готовим юношей и девушек к службе в Вооружённых Силах РФ, воспитываем в них чувсто долга, дисциплину и любовь к Отечеству.
+        </p>
+        
+        <!-- Блоки с описанием -->
+        <div class="hero__features">
+            <div class="hero-feature">
+                <div class="hero-feature__icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <div class="hero-feature__text">
+                    <h3>Для чего нужен клуб</h3>
+                    <p>«Белый Купол» — это место, где каждый получает реальные навыки защиты, выживания и взаимопомощи. Мы воспитываем силу духа и дисциплину.</p>
+                </div>
+            </div>
+            <div class="hero-feature">
+                <div class="hero-feature__icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="hero-feature__text">
+                    <h3>Для новичков</h3>
+                    <p> Мы начинаем с азов: техника безопасности, базовая физподготовка, основы ориентирования. Всё объясняем с нуля.</p>
+                </div>
+            </div>
+            <div class="hero-feature">
+                <div class="hero-feature__icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="hero-feature__text">
+                    <h3>Что ты получишь</h3>
+                    <p>Уверенность в себе, умение работать в команде и принимать решения в стрессовых ситуациях.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Одна кнопка записи -->
+        <div class="hero__cta">
+            <a href="#form" class="btn btn--primary">Записаться на курс</a>
+            <a href="#program" class="btn btn--outline">Узнать программу</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Преимущества -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>Комплексная программа</h3>
+                    <p>Полноценная программа обучения и подготовки от базовых навыков.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Профессиональные инструктора</h3>
+                    <p>Опытные специалисты, которые всегда помогут для получения знаний и навыков</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="far fa-calendar-alt"></i></div>
+                    <h3>Мероприятия</h3>
+                    <p>Курсанты участвуют в полевых выходах, патриотических акциях и участие в военно-спортивных играх "Зарница 2.0"</p>
+                </div>
+            </div>
+        </div>
+    >
+    </section>
+
+   <!-- Основы начальной военной подготовки -->
+<section class="basics" id="basics">
+        <div class="basics__content">
+            <h2>«Основы начальной военной подготовки для начинающих»</h2>
+            
+            <p class="basics__intro">
+                Ты получишь важную теорию и практические советы, которые заложат надёжный фундамент твоих навыков. 
+                Программа разработана с учётом реального боевого опыта инструкторов и адаптирована для гражданских лиц.
+            </p>
+            
+            <p class="basics__extra">
+                Независимо от твоего уровня подготовки — будь ты полный новичок или уже имеешь базовые представления — 
+                наши методики помогут тебе быстро освоить необходимые дисциплины и почувствовать уверенность в своих силах.
+            </p>
+            
+            <ul class="basics-list">
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span><strong>Разбор основ:</strong> Устройство АК, сборка и разборка, основы тактики и ориентирования на местности</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span><strong>Практические советы:</strong> Как правильно отрабатывать навыки, техника безопасности при обращении с оружием</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span><strong>Чёткие инструкции:</strong> Алгоритмы действий в различных ситуациях — от чрезвычайных происшествий до оказания первой помощи</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span><strong>План тренировок:</strong> Готовая программа занятий на учебный год с поэтапным усложнением материала</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Галерея -->
+<section class="gallery" id="gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2>Галерея</h2>
+        </div>
+        
+        <div class="gallery__wrapper">
+            <button class="galleryarrow galleryarrow--left" id="gallery-scroll-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="gallery__scroll" id="gallery-scroll">
+                <div class="gallery__item" data-full="11.jpg">
+                    <img src="11.jpg">
+                </div>
+                <div class="gallery__item" data-full="12.jpg">
+                    <img src="12.jpg">
+                </div>
+                <div class="gallery__item" data-full="13.jpg">
+                    <img src="13.jpg">
+                </div>
+                <div class="gallery__item" data-full="14.jpg">
+                    <img src="14.jpg">
+                </div>
+                <div class="gallery__item" data-full="15.jpg">
+                    <img src="15.jpg">
+                </div>
+                <div class="gallery__item" data-full="16.jpg">
+                    <img src="16.jpg">
+                </div>
+                <div class="gallery__item" data-full="17.jpg">
+                    <img src="17.jpg">
+                </div>
+                <div class="gallery__item" data-full="18.jpg">
+                    <img src="18.jpg">
+                </div>    
+                <div class="gallery__item" data-full="19.jpg">
+                    <img src="19.jpg">
+                </div>
+                <div class="gallery__item" data-full="20.jpg">
+                    <img src="20.jpg">
+                </div>
+                <div class="gallery__item" data-full="21.jpg">
+                    <img src="21.jpg">
+                </div>
+                <div class="gallery__item" data-full="22.jpg">
+                    <img src="22.jpg">
+                </div>
+                <div class="gallery__item" data-full="23.jpg">
+                    <img src="23.jpg">
+                </div>
+                <div class="gallery__item" data-full="24.jpg">
+                    <img src="24.jpg">
+                </div>
+                <div class="gallery__item" data-full="25.jpg">
+                    <img src="25.jpg">
+                </div>
+                <div class="gallery__item" data-full="27.jpg">
+                    <img src="27.jpg">
+                </div>
+                <div class="gallery__item" data-full="28.jpg">
+                    <img src="28.jpg">
+                </div>
+                <div class="gallery__item" data-full="30.jpg">
+                    <img src="30.jpg">
+                </div>
+                <div class="gallery__item" data-full="31.jpg">
+                    <img src="31.jpg">
+                </div>
+                <div class="gallery__item" data-full="26.jpg">
+                    <img src="26.jpg">
+                </div>
+                <div class="gallery__item" data-full="35.jpg">
+                    <img src="35.jpg">
+                </div>
+            </div>
+            
+            <button class="galleryarrow galleryarrow--right" id="gallery-scroll-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- окно для фото -->
+<div class="lightbox" id="lightbox">
+    <span class="lightbox__close" id="lightbox-close">&times;</span>
+    <img src="" alt="" id="lightbox-img">
+</div>
+
+
+
+
+    <!-- Программа обучения -->
+<section class="program" id="program">
+    <div class="container">
+        <div class="section-header">
+            <h2>Программа обучения</h2>
+        </div>
+        
+        <div class="program__list">
+            <div class="program__item">
+                <p><strong>Физическая подготовка</strong> — развитие выносливости, силовая подготовка, скоростно-силовые качества, работа на полосе препятствий.</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Огневая подготовка</strong> матчасть ММГ - разборка/сборка, упражнение стрельб из различных положений(стоя, с колена, лёжа), неполная разборка/сборка на время</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Строевая подготовка</strong> — строевые приёмы, воинское приветствие, строевой шаг и чёткость выполнения команд</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Воздушно-десантная подготовка</strong> — укладка основных и запасных парашютов, предпрыжковая подготовка, действоия после приземления</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Тактическая подготовка</strong> — действия в бою в составе отделения/группы, перебежки, использования укрытий, тактика штурма зданий и боя в лесу, условные сигналы и взаимодестие</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Выживание в экстримальных условиях</strong> — добыча воды и огня в полевых условиях, обустройство укрытий, ориентирование без компоса и навигации</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Военная топография</strong> — чтение топографических карт, определеине азимута и движение по нему, нанесение целей на карту и прокладывние маршрутов</p>
+            </div>
+            <div class="program__item">
+                <p><strong> РХБ защита</strong> — надевание противогаза и ОЗК, действия при химической и радиационной атаке, поределение отравляющих веществ по внешним признакам</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Тактическая медицина</strong> — самопомощь, наложение жгутов и давящих повязок, остановка кровоточений, транспортировка раненого с поля боя</p>
+            </div>
+            <div class="program__item">
+                <p><strong>Инженерная подготовка</strong> — рытьё окопов, маскировка укрытийс помошью подручных средств, работа с металлоискателем</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Форма записи -->
+    <section class="signup" id="form">
+        <div class="container signup__container">
+            <div class="signup__info">
+                <h2>Готов стать частью «Белого Купола»?</h2>
+                <p>Тогда оставляй заявку</p>
+                <div class="signup__contacts">
+                    <p><i class="fas fa-phone-alt"></i> Или звони: +7 (777) 777-77-77</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Свердловская область, г.Екатеринбург ул. Крауля 168 </p>
+                </div>
+            </div>
+            <form class="signup__form" id="signup-form">
+                <input type="text" id="surname" placeholder="Фамилия" required>
+                <input type="text" id="name" placeholder="Имя" required>
+                <input type="tel"  id="phone" placeholder="Телефон" required>
+                <select id="course" required>
+                    <option value="">Выберите курс</option>
+                    <option value="1 курс">1 курс</option>
+                    <option value="2 курс">2 курс</option>
+                    <option value="3 курс">3 курс</option>
+                    <option value="4 курс">4 курс</option>
+                </select>
+                <button type="submit" class="btn btn--primary btn--block" id="submit-btn">Записаться</button>
+                <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой данных</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">БЕЛЫЙ КУПОЛ</div>
+            <div class="footer__links">
+                <a href="#about">О клубе</a>
+                <a href="#program">Программа</a>
+            </div>
+            <div class="footer__copy">
+                © 2026 Военно-патриотический клуб «Белый Купол».
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
